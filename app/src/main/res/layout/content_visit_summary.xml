@@ -25,7 +25,6 @@
 
 
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/cardView_patient_details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -59,7 +58,6 @@
                         android:layout_height="wrap_content">
 
                         <TextView
-                            android:id="@+id/textView_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -81,7 +79,6 @@
                         android:layout_height="wrap_content">
 
                         <TextView
-                            android:id="@+id/textView_id"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -103,7 +100,6 @@
         <!-- Vitals Card contains a TableView-->
 
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/cardView_vitals"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -146,7 +142,6 @@
                         android:layout_height="wrap_content">
 
                         <TextView
-                            android:id="@+id/textView_height"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -166,7 +161,6 @@
                     <TableRow android:layout_width="match_parent">
 
                         <TextView
-                            android:id="@+id/textView_weight"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -184,7 +178,6 @@
                     <TableRow>
 
                         <TextView
-                            android:id="@+id/textView_bmi"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -202,7 +195,6 @@
                     <TableRow>
 
                         <TextView
-                            android:id="@+id/textView_bp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -227,7 +219,6 @@
                     <TableRow>
 
                         <TextView
-                            android:id="@+id/textView_pulse"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -270,7 +261,6 @@
                     <TableRow>
 
                         <TextView
-                            android:id="@+id/textView_pulseox"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -288,7 +278,6 @@
                     <TableRow>
 
                         <TextView
-                            android:id="@+id/textView_respiratory"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -309,7 +298,6 @@
 
         <!--C/O Card contains text-->
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/cardView_complaint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -353,7 +341,6 @@
 
         <!--Physical Exam Card contains text-->
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/cardView_physexam"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -404,7 +391,6 @@
 
         <!--Patient History Card contains text-->
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/cardView_pathist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -449,7 +435,6 @@
 
         <!--Family History Card contains text-->
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/cardView_famhist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -493,7 +478,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/additional_document_images"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -848,7 +832,6 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/chw_and_doctor_details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -903,7 +886,6 @@
 
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/flageddetails"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -922,7 +904,6 @@
                 android:weightSum="1">
 
                 <TextView
-                    android:id="@+id/flag"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"

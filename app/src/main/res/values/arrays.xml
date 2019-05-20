@@ -14,18 +14,6 @@
     </string-array>
 
 
-
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_example_list_values">
-        <item>1</item>
-        <item>0</item>
-        <item>-1</item>
-    </string-array>
-
     <string-array name="state_error">
         <item>Please select country first</item>
     </string-array>
@@ -34,32 +22,6 @@
         <item>India</item>
         <item>United States</item>
         <item>Philippines</item>
-    </string-array>
-
-    <string-array name="education_or">
-        <item>ଶିକ୍ଷା ଚୟନ</item>
-        <item>ଅଶିକ୍ଷିତ</item>
-        <item>ମୌଳିକ ଶିକ୍ଷା</item>
-        <item>ମାଧ୍ୟମିକ ଶିକ୍ଷା</item>
-        <item>ଉଚ୍ଚ ମାଧ୍ୟମିକ ଶିକ୍ଷା</item>
-        <item>ସ୍ନାତକୋତର ଶିକ୍ଷା</item>
-    </string-array>
-
-    <string-array name="education_en">
-        <item>Select Education</item>
-        <item>Illiterate</item>
-        <item>Primary</item>
-        <item>Secondary</item>
-        <item>Higher Secondary</item>
-        <item>Graduation &amp; Higher</item>
-    </string-array>
-    <string-array name="education_cb">
-        <item>Select Education</item>
-        <item>Illiterate</item>
-        <item>Primary</item>
-        <item>Secondary</item>
-        <item>Higher Secondary</item>
-        <item>Graduation &amp; Higher</item>
     </string-array>
 
     <string-array name="caste">
@@ -71,24 +33,6 @@
         <item>others</item>
     </string-array>
 
-    <string-array name="economic_en">
-        <item>Select Economic Status</item>
-        <item>APL</item>
-        <item>BPL</item>
-    </string-array>
-
-
-    <string-array name="economic_or">
-        <item>ଚୟନ</item>
-        <item>APL</item>
-        <item>BPL</item>
-    </string-array>
-
-    <string-array name="economic_cb">
-        <item>Select Economic Status</item>
-        <item>APL</item>
-        <item>BPL</item>
-    </string-array>
 
     <string-array name="states_india">
         <item>Select State</item>

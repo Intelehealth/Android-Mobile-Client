@@ -2,9 +2,6 @@
     <string name="app_name">Intelehealth</string>
 
     //Generic
-    <string name="generic_the_flipping_word_next">Next</string>
-    <string name="hint_required">Required</string>
-    <string name="hint_optional">Optional</string>
     <string name="tag_optional">optional</string>
     <string name="generic_ok">OK</string>
     <string name="generic_cancel">Cancel</string>
@@ -17,26 +14,9 @@
     <string name="action_home">Home</string>
     <string name="action_settings">Settings</string>
     <string name="generic_warning">Warning!</string>
-    <string name="generic_update">Update</string>
-    <string name="generic_deleted">Deleted</string>
 
 
     //Database Schema Names
-    <string name="db_first_name" translatable="false">first_name</string>
-    <string name="db_middle_name" translatable="false">middle_name</string>
-    <string name="db_last_name" translatable="false">last_name</string>
-    <string name="db_dob" translatable="false">date_of_birth</string>
-    <string name="db_phone_number" translatable="false">phone_number</string>
-    <string name="db_address_line1" translatable="false">address1</string>
-    <string name="db_address_line2" translatable="false">address2</string>
-    <string name="db_city" translatable="false">city_village</string>
-    <string name="db_state" translatable="false">state_province</string>
-    <string name="db_postal_code" translatable="false">postal_code</string>
-    <string name="db_country" translatable="false">country</string>
-    <string name="db_gender" translatable="false">gender</string>
-    <string name="db_patient_id1" translatable="false">patient_identifier1</string>
-    <string name="db_patient_id2" translatable="false">patient_identifier2</string>
-    <string name="db_patient_id3" translatable="false">patient_identifier3</string>
 
     //Login Screen
     <string name="title_activity_login">Intelehealth</string>
@@ -46,31 +26,19 @@
     <string name="action_sign_in">Login</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="url_invalid">Check your URL.</string>
-    <string name="prefix_invalid">Select a different prefix!</string>
     <string name="error_invalid_email">This username is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
-    <string name="error_network">Network Error</string>
     <string name="error_location_not_selected">Please select a value form the location dropdown</string>
     <string name="error_location_not_fetched">Unable to fetch locations</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
-    </string>
-    <string name="device_id">Device ID:</string>
     <string name="enter_license_key">Enter License Key</string>
 
     <string name="cant_login_user">Can\'t log in ?</string>
     <string name="email_link">Please contact your System Administrator to reset your password or send an email to support@intelehealth.io</string>
 
     //Home Screen (after login)
-    <string name="title_home_screen">Home</string>
-    <string name="button_new_pt">New Patient</string>
-    <string name="button_find_pt">Find Patient</string>
-    <string name="button_diagnostic_tests">Diagnostic Tests</string>
-    <string name="button_active_pt">Active Patients</string>
-    <string name="menu_option_sync">Sync Data</string>
     <string name="menu_option_settings">Settings</string>
-    <string name="menu_option_end_of_day">End of Day</string>
     <string name="menu_option_logout">Logout</string>
 
 
@@ -83,7 +51,6 @@
     <string name="identification_screen_prompt_address2">Address Line 2</string>
     <string name="identification_screen_prompt_phone_number">Phone Number</string>
     <string name="admin_password_dialog_heading">Enter Admin Password</string>
-    <string name="identification_screen_prompt_gender">Gender *</string>
     <string name="identification_screen_checkbox_male">Male</string>
     <string name="identification_screen_checkbox_female">Female</string>
     <string name="identification_screen_prompt_birthday">Date of Birth*</string>
@@ -97,9 +64,7 @@
     <string name="identification_screen_prompt_postal_code">Postal Code</string>
     <string name="identification_screen_prompt_relationship">Son/Daughter/Wife of</string>
     <string name="identification_screen_prompt_occupation">Occupation</string>
-    <string name="identification_screen_snack_patient_created">Patient created! Uploading to server.</string>
     <string name="identification_screen_error_data_fields">Error: data fields are not formatted correctly</string>
-    <string name="identification_screen_dialog_age">Please enter age in years</string>
     <string name="identification_screen_dialog_error_dob">Error: DOB is set for date after today</string>
     <string name="identification_screen_dialog_error_gender">Error: Gender is not selected</string>
     <string name="identification_screen_error_dob">Enter a valid DOB</string>
@@ -113,22 +78,16 @@
     <string name="title_activity_active_patient">Active Patients</string>
 
     //Patient History Screen
-    <string name="title_activity_get_patient_history">Patient History</string>
     <string name="title_activity_search_patient">Patient Lookup</string>
 
     //Complaint Node Screen
-    <string name="title_activity_complaint_select">Select Complaints</string>
-    <string name="title_activity_complaint_questions">Answer All Questions</string>
     <string name="title_activity_complaint_node">Select Complaints</string>
-    <string name="complaint_category_selected">Selected Categories:</string>
-    <string name="complaint_complaint_selected">Selected Complaints:</string>
     <string name="complaint_dialog_title">Complaints</string>
     <string name="complaint_required">Complaint must be selected!</string>
 
     //Question Node Screen
     <string name="title_activity_question_node" translatable="false">QuestionNodeActivity</string>
     <string name="complaint_change_selected">Modify</string>
-    <string name="question_answer_all">Are you sure you have answered all questions.</string>
     <string name="question_answer_all_phy_exam">Please answer all general exam questions.</string>
     <string name="question_duration_picker">Please enter duration</string>
     <string name="question_text_input">Please enter text</string>
@@ -167,20 +126,16 @@
     <string name="title_activity_patient_summary">Visit Summary</string>
     <string name="visit_summary_temperature">Temperature (C)</string>
     <string name="visit_summary_pulseox">SpO2 (%)</string>
-    <string name="visit_summary_hw_on_duty">CHW On Duty</string>
     <string name="visit_summary_vitals_heading">Vitals</string>
     <string name="visit_summary_height_heading">Height (cm)</string>
     <string name="visit_summary_weight">Weight (kg)</string>
     <string name="visit_summary_bmi">BMI</string>
     <string name="visit_summary_bp">BP</string>
     <string name="visit_summary_pulse">Pulse</string>
-    <string name="visit_summary_previous_reports">Previous Reports</string>
     <string name="visit_summary_medical_history">Medical History</string>
     <string name="visit_summary_family_history">Family History</string>
     <string name="visit_summary_on_examination">On Examination</string>
     <string name="visit_summary_complaint">C/O</string>
-    <string name="visit_summary_vitals">Vitals</string>
-    <string name="visit_summary_doctor_details">Doctor Details</string>
     <string name="visit_summary_rx">Prescribed Medications</string>
     <string name="visit_summary_diagnosis">Diagnosis</string>
     <string name="visit_summary_advice">Medical Advice</string>
@@ -189,14 +144,12 @@
     <string name="visit_summary_heading_name">Name</string>
     <string name="visit_summary_heading_id">ID</string>
     <string name="visit_summary_button_download">Download from doctor</string>
-    <string name="name_button_download" translatable="false">button_download</string>
     <string name="visit_summary_follow_up_date">Follow Up Date</string>
     <string name="visit_summary_follow_up_reminder">Please remind the patient of their follow up date: </string>
     <string name="visit_summary_upload_reminder">Please upload first before attempting to end the visit.</string>
 
 
     //Diagnostic Tests Screen
-    <string name="title_activity_diagnostic_tests_list">Choose a Diagnostic Test</string>
 
     //Physical Exam Dialog
     <string name="wash_hands">Remember to wash your hands</string>
@@ -204,7 +157,6 @@
 
     //Patient Detail Screen
     <string name="header_patient_detail">Patient Information</string>
-    <string name="button_history">Patient History</string>
     <string name="title_activity_patient_detail">Patient Detail</string>
     <string name="header_medical_history">History</string>
     <string name="button_new_visit">Start New Visit</string>
@@ -217,21 +169,11 @@
     <string name="row_age">Age</string>
     <string name="row_address">Address</string>
     <string name="row_phone_number">Phone Number</string>
-    <string name="row_open_visit">Click to open visit</string>
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
-
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message
-        history
-    </string>
-
-    <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
 
 
     <!-- Example settings for Data & Sync -->
@@ -246,7 +188,6 @@
     <string name="pref_title_ringtone">Ringtone</string>
     <string name="pref_ringtone_silent">Silent</string>
     <string name="pref_title_vibrate">Vibrate</string>
-    <string name="toast_crash">Application error encountered; report sent</string>
 
 
     <string name="title_activity_setup" translatable="false">SetupActivity</string>
@@ -261,7 +202,6 @@
     <string name="setup_internet">A strong Internet connection is required for setup.</string>
     <string name="generic_manual_entry">Manual Entry</string>
     <string name="generic_erase_redo">Erase and Re-Do</string>
-    <string name="visit_summary_edit_vitals">You can re-do the vitals from the vitals screen</string>
 
     //Camera Permissions
     <string name="permission_camera_rationale">Camera permission is needed to show the camera preview.</string>
@@ -272,8 +212,6 @@
     <string name="button_ok">Ok</string>
     <string name="button_cancel">Cancel</string>
     <string name="picture_taken">Picture taken</string>
-    <string name="switch_flash">Switch flash</string>
-    <string name="switch_camera">Switch camera</string>
     <string name="flash_auto">Flash auto</string>
     <string name="flash_off">Flash off</string>
     <string name="flash_on">Flash on</string>
@@ -287,11 +225,9 @@
     <string name="button_delete">Delete</string>
 
     //Camera Dialog
-    <string name="camera_dialog_default">Please click document photo in good lighting conditions only. If document photo is not clear, please retake the document photo.</string>
 
     <!--Offline Login Errors-->
     <string name="offline_credentials_unavailable">Offline Login is not available.</string>
-    <string name="offline_user_does_not_match">User does not match.</string>
     <string name="offline_authentication_not_possible">Unable to authenticate offline.</string>
     <string name="admin_authentication_not_possible">Unable to authenticate.</string>
 
@@ -308,20 +244,9 @@
     //Sync strings
     <string name="sync_stopped">Stopped</string>
     <string name="sync_in_progress">In progress</string>
-    <string name="sync_complete">Complete</string>
     <string name="sync_error">Error : No such status</string>
 
     <string name="id_number">ID Number</string>
-    <string name="uploading">Uploading</string>
-    <string name="downloading">Downloading</string>
-
-    <string name="visit">Visit</string>
-    <string name="visit_update">Visit Update</string>
-    <string name="patient">Patient</string>
-    <string name="patient_update">Patient Update</string>
-    <string name="patient_images">Patient Profile Image</string>
-    <string name="visit_images">Visit Images</string>
-    <string name="prescription">Prescription</string>
 
     <string name="error_no_data">Please download first before attempting to end the visit.</string>
     <string name="error_phone_number">Phone number can\'t be empty</string>
@@ -331,8 +256,6 @@
     <string name="sms_success">SMS Sent!</string>
 
     <string name="question_update_details">Do you want to update details?</string>
-
-    <string name="backup_completed">Backup Completed!</string>
 
 
     <string name="new_patient">New Patient</string>
@@ -350,7 +273,6 @@
     <string name="success_offline_login">"Offline Login Successful"</string>
     <string name="invalidate_offline_login">"Offline Login Invalidated"</string>
 
-    <string name="patient_upload_error">Patient has not been uploaded</string>
     <string name="patient_not_registered">Patient not registered</string>
 
     <string name="action_sync_all">Sync Data</string>
@@ -376,20 +298,15 @@
 
     <!--DB Backup-->
 
-    <string name="db_backup_complete">Database Backup Complete!</string>
-    <string name="db_restore_complete">Database Restore Complete!</string>
-
     <!--Cloud Backup-->
 
     <string name="cloud_upload_header">Uploading database to cloud</string>
     <string name="no_network">Internet connection not available</string>
     <string name="no_data">No data to backup!</string>
     <string name="local_backup_failed">Local backup not available</string>
-    <string name="local_backup_restore">Restoring from local backup</string>
 
     <string name="cloud_restore_header">Restore form cloud</string>
     <string name="restore_data">Restoring data</string>
-    <string name="error_existing_data">Database contains data, cannot restore!</string>
     <string name="cloud_download_data">Downloading database from cloud</string>
 
     <string name="force_restore_header">"Restoring data from cloud(Forced)"</string>
@@ -416,12 +333,5 @@
     <string name="error_img_download_failed">Image Download failed</string>
 
     <!--Parse Validation User login-->
-
-    <string name="user_logged_in">Already logged in!</string>
-    <string name="user_logged_in_other_device">Already logged in.Please logout from other device.</string>
-    <string name="user_logged_out">Logged out from server</string>
-    <string name="user_login_check_success">Login Successful!</string>
-    <string name="user_login_error">Another user is logged into this location. Please contact admin</string>
-    <string name="user_server_unreachable">Device Offline. Cannot check server for login verification</string>
 
 </resources>

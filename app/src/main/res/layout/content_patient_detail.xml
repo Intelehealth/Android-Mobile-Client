@@ -44,7 +44,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView3"
                     android:layout_width="247dp"
                     android:layout_height="wrap_content"
                     android:paddingTop="@dimen/padding_card_title_text"
@@ -460,7 +459,6 @@
             android:text="@string/button_new_visit" />
 
         <android.support.v7.widget.CardView
-            android:id="@+id/cardView_previous_visits"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

@@ -7,7 +7,6 @@
     <string name="row_address">ঠিকানা</string>
     <string name="title_activity_complaint_node">"রোগীর অভিযোগ নির্বাচন করুন "</string>
     <string name="complaint_dialog_title">অভিযোগ</string>
-    <string name="button_new_pt">নতুন রোগী যোগ করুন</string>
     <string name="identification_screen_prompt_first_name">"নাম (প্রথম অংশ)  "</string>
     <string name="identification_screen_prompt_middle_name">নাম (মাঝের অংশ)</string>
     <string name="identification_screen_prompt_last_name">"নাম ( শেষের অংশ  ) "</string>

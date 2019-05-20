@@ -4,14 +4,9 @@
 <resources>
     <color name="colorPrimary">#2E1E91</color>
     <color name="colorPrimaryDark">#21166a</color>
-    <color name="colorPrimaryLight">#D1C4E9</color>
     <color name="colorAccent">#448AFF</color>
     <color name="primary_text">#212121</color>
-    <color name="icons">#FFFFFF</color>
     <color name="divider">#BDBDBD</color>
-    <color name="green">#4CAF50</color>
-    <color name="red">#F44336</color>
-    <color name="yellow">#FFEB3B</color>
     <color name="amber">#FFC107</color>
     <color name="gray">#444440</color>
     <color name="white">#FFFFFF</color>

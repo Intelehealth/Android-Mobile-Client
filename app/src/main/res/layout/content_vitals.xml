@@ -29,7 +29,6 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/table_hw"
-                android:id="@+id/textview_hw"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true" />
 
@@ -95,7 +94,6 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/table_bp"
-                android:id="@+id/textview_bp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true"
                 android:tag="@string/tag_optional"  />
@@ -131,7 +129,6 @@
                         android:layout_height="match_parent"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="/"
-                        android:id="@+id/textView"
                         android:layout_gravity="center"
                         android:gravity="center_vertical|center_horizontal" />
 
