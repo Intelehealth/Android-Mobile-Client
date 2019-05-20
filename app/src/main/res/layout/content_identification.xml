@@ -412,7 +412,8 @@
                     android:imeOptions="actionUnspecified"
                     android:inputType="number"
                     android:maxLines="1"
-                    android:tag="@string/tag_optional" />
+                    android:tag="@string/tag_optional"
+                    android:maxLength="9"/>
 
             </android.support.design.widget.TextInputLayout>
 
