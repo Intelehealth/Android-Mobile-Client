@@ -59,7 +59,9 @@ public class HomeActivity extends AppCompatActivity {
     SharedPreferences.Editor e;
     String backupdate, backuptime;
     Calendar calendar;
+
     Handler handler;
+    Runnable runnable;
 
     private static final String TAG = HomeActivity.class.getSimpleName();
 
@@ -86,6 +88,17 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        handler = new Handler();
+        runnable = new Runnable() {
+            @Override
+            public void run() {
+               // manageBackup(true,false);
+                logout();
+            }
+        };
+
+        startHandler(); //will start the timer.
 
         SharedPreferences prefs = getSharedPreferences("CommonPrefs",
                 Activity.MODE_PRIVATE);
@@ -186,9 +199,50 @@ public class HomeActivity extends AppCompatActivity {
             }
         }, 1000 * 60);*/
 
-        handler = new Handler();
+        //handler = new Handler();
 
     }
+
+    @Override
+    public void onUserInteraction() {
+        super.onUserInteraction();
+        stopHandler();  //first stop the timer and then again start it
+        startHandler();
+    }
+
+    public void stopHandler() {
+        handler.removeCallbacks(runnable);
+    }
+    public void startHandler() {
+
+        handler.postDelayed(runnable, 30*60*1000); //for 30 minutes
+    }
+
+   /* @Override
+    protected void onPause() {
+
+        stopHandler();
+        Log.d("onPause", "onPauseActivity change");
+        super.onPause();
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        startHandler();
+
+        Log.d("onResume", "onResume_restartActivity");
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        stopHandler();
+        Log.d("onDestroy", "onDestroyActivity change");
+
+    }*/
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

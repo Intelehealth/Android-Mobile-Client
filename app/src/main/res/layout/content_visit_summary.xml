@@ -69,10 +69,11 @@
 
                         <TextView
                             android:id="@+id/textView_name_value"
-                            android:layout_width="match_parent"
+                            android:layout_width="1dp"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
+                            android:layout_weight="3"
                             android:paddingTop="@dimen/padding_card"
+                            android:layout_gravity="fill"
                             android:textSize="@dimen/card_content_text_size" />
                     </TableRow>
 
@@ -92,7 +93,7 @@
                             android:id="@+id/textView_id_value"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_weight="1"
+                            android:layout_weight="3"
                             android:textSize="@dimen/card_content_text_size" />
                     </TableRow>
                 </TableLayout>

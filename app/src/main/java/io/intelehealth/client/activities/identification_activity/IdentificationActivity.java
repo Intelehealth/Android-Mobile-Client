@@ -203,6 +203,7 @@ public class IdentificationActivity extends AppCompatActivity {
         if (sharedPreferences.contains("licensekey"))
             hasLicense = true;
 
+
         //Check for license key and load the correct config file
         //Issue #683
         try {
@@ -601,7 +602,8 @@ try {
                 mDOBMonth = monthOfYear;
                 mDOBDay = dayOfMonth;
 
-                String ageString = String.valueOf(mAgeYears) + getString(R.string.identification_screen_text_years) + String.valueOf(mAgeMonths) + getString(R.string.identification_screen_text_months);
+                String ageString = String.valueOf(mAgeYears) + getString(R.string.identification_screen_text_years)
+                        +" , "+ String.valueOf(mAgeMonths) + getString(R.string.identification_screen_text_months);
                 mAge.setText(ageString);
             }
         }, mDOBYear, mDOBMonth, mDOBDay);
