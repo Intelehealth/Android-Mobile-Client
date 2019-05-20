@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Intelehealth</string>
+    <string name="app_name" translatable="false">Intelehealth</string>
 
     //Generic
     <string name="generic_the_flipping_word_next">Next</string>

@@ -13,6 +13,7 @@ import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
@@ -120,6 +121,8 @@ public class SetupActivity extends AppCompatActivity {
     AlertDialog.Builder dialog;
     String key = null;
     SessionManager sessionManager;
+
+    final Handler mHandler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -231,16 +234,29 @@ public class SetupActivity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                if (!mUrlField.getText().toString().trim().isEmpty() && mUrlField.getText().toString().length() >= 12) {
-                    if (Patterns.WEB_URL.matcher(mUrlField.getText().toString()).matches()) {
-                        String BASE_URL = "http://" + mUrlField.getText().toString() + ":8080/openmrs/ws/rest/v1/";
-                        if (URLUtil.isValidUrl(BASE_URL) && !isLocationFetched)
-                            getLocationFromServer(BASE_URL);
-                        else
-                            Toast.makeText(SetupActivity.this, getString(R.string.url_invalid), Toast.LENGTH_SHORT).show();
+
+                mHandler.removeCallbacksAndMessages(null);
+                mHandler.postDelayed(userStoppedTyping, 1500); // 1.5 second
+
+
+            }
+
+            Runnable userStoppedTyping = new Runnable() {
+
+                @Override
+                public void run() {
+                    // user didn't typed for 1.5 seconds, do whatever you want
+                    if (!mUrlField.getText().toString().trim().isEmpty() && mUrlField.getText().toString().length() >= 12 ) {
+                        if (Patterns.WEB_URL.matcher(mUrlField.getText().toString()).matches()) {
+                            String BASE_URL = "http://" + mUrlField.getText().toString() + ":8080/openmrs/ws/rest/v1/";
+                            if (URLUtil.isValidUrl(BASE_URL) && !isLocationFetched)
+                                getLocationFromServer(BASE_URL);
+                            else
+                                Toast.makeText(SetupActivity.this, getString(R.string.url_invalid), Toast.LENGTH_SHORT).show();
+                        }
                     }
                 }
-            }
+            };
 
         });
 

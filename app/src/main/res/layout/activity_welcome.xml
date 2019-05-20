@@ -8,11 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="io.intelehealth.client.activities.splash_activity.SplashActivity">
+    tools:context="io.intelehealth.client.activities.splash_activity.SplashActivity"
+    >
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello World"/>
 
 </RelativeLayout>
